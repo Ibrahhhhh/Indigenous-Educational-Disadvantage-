@@ -1,0 +1,209 @@
+html, body {
+    height: 100vh;  
+    overflow: hidden;  
+    font-family: 'Aileron';
+    color: white; 
+    }
+  
+  .parent {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    height: 100vh;
+    scroll-snap-align: start;
+    /* position: relative; */
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  
+
+h2 {
+  text-transform: capitalize; 
+  z-index: 100; 
+}
+
+  p{
+    font-size: 16px;
+width: 50vw; 
+    z-index: 10;
+   text-align: center; 
+    margin-bottom: 3vh;
+    font-spacing: 2px; 
+    font-weight: 300; 
+  
+   
+  }
+
+div.column > p {
+  
+  margin-left: 10vw; 
+  
+}
+
+
+  #landing > p {
+    font-weight: 200; 
+    letter-spacing: 1.1px; 
+  }
+
+  h3 {
+    font-size: 2.5em; 
+    width: 70vw;
+    height: 5vh;  
+  
+  }
+
+#landing {
+  background-color: #123a59;
+
+}
+
+  #landing {
+    background:  linear-gradient(180deg, #202658, #1C224E);
+  
+  }
+  #one {
+    background:linear-gradient(180deg, #1C224E, #181D43);
+  }
+  #two {
+    background: linear-gradient(180deg, #181D43, #141838);
+  }
+  #three {
+    background: linear-gradient(180deg, #141838, #10142D );
+  }
+
+  #four {
+    background: linear-gradient(180deg, #10142D, #0C0F22 );
+  }
+
+  #five {
+    background:linear-gradient(180deg, #0C0F22, #090A17);
+  }
+  #six {
+    background: linear-gradient(180deg, #090A17, #05060C);
+  }
+
+
+
+  div.sub { 
+    z-index: 1;
+    padding: 20px;
+    width: 70vw; 
+    height: 50vh; 
+    border-radius: 20px;
+    /* background-color: white;  */
+    justify-content:center; 
+  }
+
+  img {
+    width: 70%;
+    max-height: 100%; 
+    margin-left: 15%;
+    opacity: 0.9;
+
+  }
+
+div.g1 {
+border-radius: 40px;
+background: #191E46;
+box-shadow:  20px 20px 60px #10132c, 
+             -20px -20px 60px #222960;
+}
+
+div.g2 {
+border-radius: 40px;
+background: #15193B;
+box-shadow:  20px 20px 60px #0c0e22, 
+             -20px -20px 60px #1e2454;
+}
+div.g3 {
+  
+border-radius: 40px;
+background: #131733;
+box-shadow:  20px 20px 60px #0b0d1e, 
+             -20px -20px 60px #1b2148;
+}
+
+div.g4{
+ border-radius: 40px;
+background: #0D1025;
+box-shadow:  20px 20px 60px #060710, 
+             -20px -20px 60px #14193a;
+}
+
+div.g5{
+ border-radius: 40px;
+background: #0A0B19;
+box-shadow:  20px 20px 60px #04040a, 
+             -20px -20px 60px #101228;
+}
+
+
+
+  
+
+
+
+/* #myDiv > div > div > svg:nth-child(3) > g.menulayer > g > g.updatemenu-header-group > g {
+  translate: 1200, 1000 !important; 
+} */
+
+ div > div > svg > g.menulayer > g > g.updatemenu-header-group > g > rect {
+  stroke: none !important; 
+
+}
+
+
+div > div >svg {
+  background: none !important; 
+}
+
+ div > div > svg:nth-child(5) > g > g.axistext {
+  display:none; 
+}
+
+ div > div > svg:nth-child(5) > g > g.hovertext > text {
+  fill: white; 
+  font-size: 12px; 
+}
+
+ div > div > svg:nth-child(5) > g > g.hovertext > path {
+fill: none; 
+  stroke: none; 
+
+}
+
+ div > div > svg:nth-child(5) > g > g.axistext {
+  display: none;
+}
+
+ div > div > svg:nth-child(5) > g > g.hovertext > path {
+  fill: none !important;
+  stroke: none !important; 
+}
+
+ div > div > svg:nth-child(5) > g > g.hovertext > text {
+
+  font-weight: bold; 
+  fill:white !important;  
+  font-size: 20px !important; 
+
+}
+
+
+
+div.modebar {
+  display:none; 
+}
+
+/* #graph5 > div > div > svg:nth-child(5) > g > g > rect {
+  display: none; 
+} */
